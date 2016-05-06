@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+body {
+    background-color: white;
+}
+
+h1,
+h2 {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-style: oblique;
+}
+
+header {
+    background-image: url(three.jpg);
+    background-position: center;
+    background-size: 100%;
+    text-transform: uppercase;
+    font-size: 50px;
+    border-style: none;
+}
+
+div {
+    background-color: lavenderblush;
+    font-family: 'Roboto Slab', serif;
+    padding: 0px;
+}
+
+.summary {
+    background-color: lavenderblush;
+    font-style: italic;
+    font-size: 20px;
+}
+
+footer {
+    background-color: lavenderblush;
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+a {
+    color: lavender;
+}
+
+a:hover {
+    color: black;
+}
