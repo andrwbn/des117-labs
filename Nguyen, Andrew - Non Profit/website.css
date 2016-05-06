@@ -1,0 +1,228 @@
+
+        body {
+            background-color: white;
+            font-family: 'Avenir';
+            color:black;
+         
+        }
+        
+         .container {
+            width: 1050px;
+            margin: auto;
+        }
+    
+        
+        .row {
+            width: 100%; 
+        }
+        
+        .one-whole {
+            width: auto;
+            height: auto;
+            background-color: white;
+        }
+        
+        .one-third {
+            width: 52%;
+            margin-left: 10px;
+            float: left;
+            
+        }
+        
+        .two-third {
+            width: 36%;
+            margin-top: 70px;
+            float: right;
+            text-align: right;
+            text-transform: uppercase;
+        }
+    
+        
+        .row:after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+       
+
+        .picture img {
+            width: 350px;
+            height: 250px;
+        }
+        
+        .picture img:hover {
+            opacity: .5;
+        }
+        
+        a {
+            color: black;
+            font-family: 'Arial Black';
+            text-decoration: none;      
+        }
+        
+        a:hover {
+            background-color: yellow; 
+        }
+        
+        #header {
+            background-color: white;
+            font-family: 'Avenir';
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+        
+        #footer {
+            background-color:lightgray;
+        }
+        
+        #section-one  {
+            background-image: url(header.jpg);
+            width:auto;
+            height:310px;
+            font-family: 'Avenir';
+            color: white;
+            text-align: right;
+            font-size: 25px;
+            padding-right: 30px;
+            padding-top: 90px;
+            
+        }
+        
+        #section-one-help {
+            font-family: 'Arial Black';
+            color: white;
+            text-align: right;
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-right: 30px;
+            padding-top: 10px;
+        }
+
+    
+        
+        #section-three {
+            width: auto;
+            height:auto;
+            padding: 30px;
+            padding-top: 10px;
+            margin-top: 40px;
+            background-color: white;
+        }
+        
+        #footer {
+            width:auto;
+            height:auto;
+            font-size: 12px;
+        }
+        
+        .facts1 {
+            width: 33%;
+            float: left;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            
+        }
+        
+        .facts2 {
+            width: 33%;
+            float: left;
+            margin-top: 50px;
+            margin-left: 30px;
+            margin-bottom: 50px;
+           
+        }
+        .facts3 {
+            width: 28%;
+            float: right;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        #section-two {
+            background-color: white;
+        }
+        
+        h1 {
+            font-family: 'Arial Black';
+            text-transform: uppercase;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+    
+           #register  {
+            background-image: url(header.png);
+            width:auto;
+            height:310px;
+            font-family: 'Avenir';
+            color: white;
+            text-align: right;
+            font-size: 25px;
+            padding-right: 10px;
+            padding-top: 50px;
+            
+        }
+        
+        #register-text {
+            font-family: 'Arial Black';
+            color: white;
+            text-align: right;
+            font-size: 50px;
+            text-transform: uppercase;
+            padding-right: 30px;
+            padding-top: 10px;
+            line-height: 10px;
+        }
+        
+        #pagetwosectiontwo {
+            padding-top: 80px;
+        }
+
+        .toppage {
+            background-color: yellow;
+            width: auto;
+            height:15px
+        }
+
+        .page4header {
+            width: 60%;
+            height:auto;
+            float: left;
+        }
+
+        .page4headerother {
+            width: 30%;
+            height:auto;
+            float: right;
+        }
+
+
+        .halfone{
+            width: 45%;
+            height: 60px;
+            float:left;
+            background-color: white;
+            border-style: solid;
+            border-color: yellow;
+            border-width: 15px;
+            font-family: 'Avenir';
+            font-weight: bold;
+            font-size: 45px;
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        .halftwo{
+            width: 45%;
+            height: 60px;
+            float:right;
+            background-color: white;
+             border-style: solid;
+            border-color: yellow;
+            border-width: 15px;
+            font-family: 'Avenir';
+            font-weight: bold;
+            font-size: 45px;
+            text-transform: uppercase;
+            text-align: center;
+        }
